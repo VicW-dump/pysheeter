@@ -1,4 +1,4 @@
-from pysheeter.PySheeter import PySheeter
+from pysheeter.PySheeter import Sheet
 
 # Load sprites from './files/' (all sprites are 64x64)
 spritesheet = PySheeter.Sheet("example/files")
