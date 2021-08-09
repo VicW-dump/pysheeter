@@ -21,4 +21,4 @@ jobs:
         python -m pip install pylint-exit
     - name: Analysing the code with pylint
       run: |
-        pylint test.py || pylint-exit $?
+        pylint test.py || pylint-exit $? --error-fail
